@@ -33,7 +33,7 @@ public class BatchConfiguration {
 	@Bean
 	public JdbcPagingItemReader<Account> reader(DataSource dataSource, PagingQueryProvider pagingQueryProvider) {
 		return new JdbcPagingItemReaderBuilder<Account>()
-				.name("personItemReader")
+				.name("accountItemReader")
 				.fetchSize(10000)
 				.pageSize(1000)
 				.dataSource(dataSource)
