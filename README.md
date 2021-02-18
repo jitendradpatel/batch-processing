@@ -1,4 +1,5 @@
 # batch-processing
+## Watch https://youtu.be/J6IPlfm7N6w
 ## Setup Instruction
 #### 1. Create Example Database - `CREATE DATABASE example` 
 #### 2. Generate data (1 million) - `pgbench -i -s 10 example`
