@@ -1,0 +1,13 @@
+Spring:
+  batch:
+    initialize-schema: always
+  datasource:
+    username: 'postgres'
+    password: 'postgres'
+    driver-class-name: org.postgresql.Driver
+    hikari:
+      maximum-pool-size: 50
+      pool-name: Batch
+      minimum-idle: 20
+      register-mbeans: true
+      jdbc-url: jdbc:postgresql://localhost:5432/example
